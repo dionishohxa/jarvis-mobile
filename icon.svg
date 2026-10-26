@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#123f8a"/><stop offset=".48" stop-color="#07152f"/><stop offset="1" stop-color="#020712"/></linearGradient>
+ <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a9f7ff"/><stop offset=".35" stop-color="#178dff"/><stop offset=".72" stop-color="#3e4fff"/><stop offset="1" stop-color="#65f6ff"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".48" stop-color="#9ebde8"/><stop offset="1" stop-color="#e9f5ff"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="clip"><rect x="22" y="22" width="468" height="468" rx="100"/></clipPath>
+</defs>
+<rect width="512" height="512" rx="112" fill="#020611"/>
+<rect x="19" y="19" width="474" height="474" rx="104" fill="url(#bg)" stroke="url(#rim)" stroke-width="8"/>
+<g clip-path="url(#clip)" opacity=".42" stroke="#1762bd" stroke-width="1.5">
+ <path d="M28 120H484M28 180H484M28 240H484M28 300H484M28 360H484M28 420H484"/>
+ <path d="M100 30V480M160 30V480M220 30V480M280 30V480M340 30V480M400 30V480"/>
+</g>
+<g filter="url(#glow)" stroke="#1bc9ff" fill="#1bc9ff" opacity=".9">
+ <path d="M50 310L100 282 142 300 184 248 225 266 266 211 310 228 354 170 398 183 455 110" fill="none" stroke-width="4"/>
+ <g stroke-width="3"><path d="M76 250v42"/><rect x="68" y="260" width="16" height="22" rx="2"/><path d="M124 218v50"/><rect x="116" y="229" width="16" height="28" rx="2"/><path d="M172 205v40"/><rect x="164" y="211" width="16" height="24" rx="2"/><path d="M366 130v55"/><rect x="358" y="143" width="16" height="29" rx="2"/><path d="M414 104v58"/><rect x="406" y="116" width="16" height="30" rx="2"/><path d="M455 78v49"/><rect x="447" y="89" width="16" height="25" rx="2"/></g>
+</g>
+<g>
+ <path d="M115 344Q123 280 181 257L205 224Q204 160 253 133Q303 108 344 147Q374 174 369 222L391 261Q424 282 433 344L433 376H100Z" fill="#07101e" stroke="#317bc5" stroke-width="5"/>
+ <path d="M210 226Q196 190 220 159Q243 129 283 132Q327 133 346 169Q358 192 347 223L328 265Q309 286 276 282Q239 278 225 250Z" fill="url(#silver)" stroke="#5cbcff" stroke-width="4"/>
+ <path d="M213 191Q230 143 275 144Q316 144 339 177L329 190Q302 174 279 176Q249 174 224 203Z" fill="#101c31" stroke="#6cc9ff" stroke-width="3"/>
+ <path d="M228 220L258 214 270 225 247 231Z" fill="#061226"/><path d="M294 219L326 216 316 231 297 230Z" fill="#061226"/>
+ <ellipse cx="248" cy="222" rx="7" ry="6" fill="#28e7ff" filter="url(#glow)"/><ellipse cx="307" cy="222" rx="7" ry="6" fill="#28e7ff" filter="url(#glow)"/>
+ <path d="M279 225L270 247 287 250" fill="none" stroke="#547ca8" stroke-width="4" stroke-linecap="round"/>
+ <path d="M260 264Q282 277 303 261" fill="none" stroke="#203d60" stroke-width="5" stroke-linecap="round"/>
+ <path d="M213 190Q190 213 214 253L236 270 232 298 198 325 171 362H343L319 323 300 301 318 273 338 243" fill="#0b1729" stroke="#2a8be2" stroke-width="4"/>
+ <circle cx="209" cy="227" r="31" fill="#071124" stroke="#4adfff" stroke-width="6"/><circle cx="209" cy="227" r="17" fill="#102f56" stroke="#168aff" stroke-width="4"/><circle cx="209" cy="227" r="6" fill="#8cf7ff"/>
+ <path d="M237 294L256 321 277 294M238 318L225 354M278 318L296 354" fill="none" stroke="#1caaff" stroke-width="5"/>
+</g>
+<rect x="45" y="371" width="422" height="94" rx="16" fill="#041023" fill-opacity=".92"/>
+<text x="256" y="421" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="900" letter-spacing="2" fill="url(#silver)" stroke="#b9e8ff" stroke-width="1">JARVIS</text>
+<path d="M94 434H418" stroke="#1caaff" stroke-width="3" filter="url(#glow)"/>
+<text x="256" y="454" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="6" fill="#b7e5ff">TRADING DESK</text>
+</svg>

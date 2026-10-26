@@ -1,0 +1,11 @@
+{
+  "name": "JARVIS Trading Desk",
+  "short_name": "JARVIS",
+  "description": "Mobile control panel for a personal trading system",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080d18",
+  "theme_color": "#080d18",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
